@@ -50,8 +50,8 @@ int main ()
   // polarity)
   while (shouldRun)
     {
-      bool val = hall->magnetDetected();
-      if (val)
+      bool val1 = hall->magnetDetected();
+      if (val1)
         cout << "Magnet (south polarity) detected." << endl;
       else
         cout << "No magnet detected." << endl;
